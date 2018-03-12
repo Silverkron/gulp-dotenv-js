@@ -1,0 +1,27 @@
+{
+  "name": "gulp-dotenv-js",
+  "version": "1.0.0",
+  "description": "Plugin for Gulp. Convert .env file in js",
+  "main": "build/dotenv-js.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silverkron/gulp-dotenv-js.git"
+  },
+  "keywords": [
+    "gulp",
+    "dotenv",
+    "js"
+  ],
+  "author": "Luca Sciacca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Silverkron/gulp-dotenv-js/issues"
+  },
+  "files": [
+    "build",
+    "LICENSE",
+    "*.md"
+  ],
+  "homepage": "https://github.com/Silverkron/gulp-dotenv-js#readme"
+}
