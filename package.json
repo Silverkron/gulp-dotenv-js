@@ -23,5 +23,9 @@
     "LICENSE",
     "*.md"
   ],
-  "homepage": "https://github.com/Silverkron/gulp-dotenv-js#readme"
+  "homepage": "https://github.com/Silverkron/gulp-dotenv-js#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "through2": "^2.0.0"
+  }
 }
