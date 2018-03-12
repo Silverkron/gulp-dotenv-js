@@ -1,9 +1,9 @@
 (function () {
-    var dotenvjs,
+    var dotenv,
         through,
         transform;
 
-    dotenvjs = require('dotenvjs');
+    dotenv = require('dotenv');
     through = require('through2');
 
     transform = function (chunk, enc, cb) {
@@ -13,7 +13,7 @@
             return cb();
         }
 
-        payload = dotenvjs.parse(chunk.contents.toString());
+        payload = dotenv.parse(chunk.contents.toString());
         file = chunk.clone();
         file.contents = new Buffer(
             ('window.END = ' + JSON.stringify(payload))
