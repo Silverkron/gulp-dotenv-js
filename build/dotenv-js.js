@@ -16,7 +16,7 @@
         payload = dotenv.parse(chunk.contents.toString());
         file = chunk.clone();
         file.contents = new Buffer(
-            ('window.ENV = ' + JSON.stringify(payload))
+            ('window.ENV = ' + JSON.stringify(payload) + ';')
         );
 
         this.push(file);
